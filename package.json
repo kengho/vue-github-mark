@@ -1,12 +1,16 @@
 {
   "name": "vue-github-mark",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "main": "src/components/GithubMark.vue",
+  "files": [
+    "src/components",
+    "src/assets"
+  ],
   "dependencies": {
     "vue": "^2.5.17"
   },
